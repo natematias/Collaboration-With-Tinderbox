@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tinderbox version="2" revision="6" >
+<attrib Name="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="System" parent="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Agent" parent="System" editable="0" visibleInEditor="1" type="4" default="false" >
+<attrib Name="AgentAction" parent="Agent" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="AgentCaseSensitive" parent="Agent" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="AgentPriority" parent="Agent" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="AgentQuery" parent="Agent" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Appearance" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Badge" parent="Appearance" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Border" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="2" >
+</attrib>
+<attrib Name="BorderBevel" parent="Appearance" editable="1" visibleInEditor="1" default="automatic" >
+</attrib>
+<attrib Name="BorderColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="Color" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="dark warm gray" >
+</attrib>
+<attrib Name="Color2" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="light warm gray" >
+</attrib>
+<attrib Name="Pattern" parent="Appearance" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PlotColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="black" >
+</attrib>
+<attrib Name="Shadow" parent="Appearance" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="ShadowBlur" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="10" >
+</attrib>
+<attrib Name="ShadowColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="black" >
+</attrib>
+<attrib Name="ShadowDistance" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="5" >
+</attrib>
+<attrib Name="Shape" parent="Appearance" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="General" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="ChildCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Container" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="" >
+</attrib>
+<attrib Name="Created" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" kind="1" canInherit="0" default="" >
+</attrib>
+<attrib Name="DescendantCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="DisplayExpression" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="DisplayName" parent="General" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="File" parent="General" editable="1" visibleInEditor="1" type="3" default="" >
+</attrib>
+<attrib Name="ID" parent="General" editable="0" visibleInEditor="0" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="InboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="IsPrototype" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
+</attrib>
+<attrib Name="Modified" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="Name" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="untitled" >
+</attrib>
+<attrib Name="OnAdd" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="OutboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="OutlineDepth" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="OutlineOrder" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Path" parent="General" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Private" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Prototype" parent="General" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="PrototypeBequeathsChildren" parent="General" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="ReadCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Rule" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="SelectionCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="SiblingOrder" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="WebLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="HTML" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="HTMLBoldEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/b&gt;" >
+</attrib>
+<attrib Name="HTMLBoldStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;b&gt;" >
+</attrib>
+<attrib Name="HTMLCloud1End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud1Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 0.75em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud2End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud2Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud3End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud3Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1.4em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud4End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud4Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLCloud5End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
+</attrib>
+<attrib Name="HTMLCloud5Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2.8em&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLDontExport" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLEntities" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLExportAfter" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportBefore" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportChildren" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLExportCommand" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportExtension" parent="HTML" editable="1" visibleInEditor="1" kind="9" default="" >
+</attrib>
+<attrib Name="HTMLExportFileName" parent="HTML" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" kind="6" type="3" default="" >
+</attrib>
+<attrib Name="HTMLFileNameLowerCase" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLFileNameMaxLength" parent="HTML" editable="1" visibleInEditor="1" type="2" default="24" >
+</attrib>
+<attrib Name="HTMLFirstParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLFirstParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
+</attrib>
+<attrib Name="HTMLImageEnd" parent="HTML" editable="1" visibleInEditor="1" default="&gt;" >
+</attrib>
+<attrib Name="HTMLImageStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;img" >
+</attrib>
+<attrib Name="HTMLIndentedParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLIndentedParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p style=&quot;text-indent:3em;&quot; &gt;" >
+</attrib>
+<attrib Name="HTMLItalicEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/i&gt;" >
+</attrib>
+<attrib Name="HTMLItalicStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;i&gt;" >
+</attrib>
+<attrib Name="HTMLListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ul&gt;" >
+</attrib>
+<attrib Name="HTMLListItemEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/li&gt;" >
+</attrib>
+<attrib Name="HTMLListItemStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;li&gt;" >
+</attrib>
+<attrib Name="HTMLListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ul&gt;" >
+</attrib>
+<attrib Name="HTMLMarkupText" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
+</attrib>
+<attrib Name="HTMLOrderedListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ol&gt;" >
+</attrib>
+<attrib Name="HTMLOrderedListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ol&gt;" >
+</attrib>
+<attrib Name="HTMLOverwriteImages" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
+</attrib>
+<attrib Name="HTMLParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
+</attrib>
+<attrib Name="HTMLQuoteHTML" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="HTMLUnderlineEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/u&gt;" >
+</attrib>
+<attrib Name="HTMLUnderlineStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;u&gt;" >
+</attrib>
+<attrib Name="IsTemplate" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="Internal" parent="System" editable="0" visibleInEditor="0" default="" >
+<attrib Name="Alias" parent="Internal" editable="0" visibleInEditor="0" type="6" default="0" >
+</attrib>
+<attrib Name="EntryScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="ExitScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
+</attrib>
+<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="9" canInherit="0" default="Rect[ 50 50 750 350]" >
+</attrib>
+</attrib>
+<attrib Name="Map" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Fill" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FillOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.75" >
+</attrib>
+<attrib Name="Height" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="1" >
+</attrib>
+<attrib Name="InteriorScale" parent="Map" editable="1" visibleInEditor="1" kind="20" default="1.5" >
+</attrib>
+<attrib Name="LeafBase" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="LeafBend" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="LeafDirection" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="LeafTip" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
+</attrib>
+<attrib Name="Lock" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="MapBackgroundColor" parent="Map" editable="1" visibleInEditor="1" kind="3" type="1" default="#becbce" >
+</attrib>
+<attrib Name="MapBodyTextColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="auto" >
+</attrib>
+<attrib Name="MapBodyTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="MapScrollX" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="MapScrollY" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="MapTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="NameAlignment" parent="Map" editable="1" visibleInEditor="1" default="left" >
+</attrib>
+<attrib Name="NameBold" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="NameColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
+</attrib>
+<attrib Name="NameFont" parent="Map" editable="1" visibleInEditor="1" kind="2" default="Verdana" >
+</attrib>
+<attrib Name="Sticky" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="TableExpression" parent="Map" editable="1" visibleInEditor="1" type="7" default="" >
+</attrib>
+<attrib Name="TableHeading" parent="Map" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="TitleHeight" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Width" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="3" >
+</attrib>
+<attrib Name="Xpos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+<attrib Name="Ypos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Net" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AutoFetch" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="AutoFetchCommand" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="LastFetched" parent="Net" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
+</attrib>
+<attrib Name="RSSChannelTemplate" parent="Net" editable="1" visibleInEditor="1" default="RSSChannel" >
+</attrib>
+<attrib Name="RSSItemLimit" parent="Net" editable="1" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="RSSItemTemplate" parent="Net" editable="1" visibleInEditor="1" default="RSSItem" >
+</attrib>
+<attrib Name="RawData" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="URL" parent="Net" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="ViewInBrowser" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="Outline" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="MapPrototypeColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="#8f978d" >
+</attrib>
+<attrib Name="OutlineColorSwatch" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="OutlineTextSize" parent="Outline" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="Separator" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+</attrib>
+<attrib Name="People" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="AIM" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Address" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Email" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="FullName" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Organization" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="Telephone" parent="People" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<attrib Name="Sorting" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="Sort" parent="Sorting" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SortAlso" parent="Sorting" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="SortAlsoTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
+</attrib>
+<attrib Name="SortBackward" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SortBackwardAlso" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="SortTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
+</attrib>
+</attrib>
+<attrib Name="TextFormat" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="KeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="8" default="" >
+</attrib>
+<attrib Name="LeftMargin" parent="TextFormat" editable="1" visibleInEditor="1" kind="15" default="2" >
+</attrib>
+<attrib Name="LineSpacing" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="100" >
+</attrib>
+<attrib Name="ParagraphSpacing" parent="TextFormat" editable="1" visibleInEditor="1" kind="14" default="2" >
+</attrib>
+<attrib Name="RightMargin" parent="TextFormat" editable="1" visibleInEditor="1" kind="16" default="-2" >
+</attrib>
+<attrib Name="ShowTitle" parent="TextFormat" editable="1" visibleInEditor="1" kind="5" type="4" default="true" >
+</attrib>
+<attrib Name="Tabs" parent="TextFormat" editable="1" visibleInEditor="1" default="0.5;" >
+</attrib>
+<attrib Name="TextAlign" parent="TextFormat" editable="1" visibleInEditor="1" kind="22" default="" >
+</attrib>
+<attrib Name="TextBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="8" type="1" default="#ffffff" >
+</attrib>
+<attrib Name="TextColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="7" type="1" default="#000000" >
+</attrib>
+<attrib Name="TextFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="18" default="Lucida Grande" >
+</attrib>
+<attrib Name="TextFontSize" parent="TextFormat" editable="1" visibleInEditor="1" kind="19" type="2" default="12" >
+</attrib>
+<attrib Name="TextSidebar" parent="TextFormat" editable="1" visibleInEditor="1" kind="17" type="4" default="true" >
+</attrib>
+<attrib Name="TitleBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="12" type="1" default="#000000" >
+</attrib>
+<attrib Name="TitleFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="4" default="Lucida Grande" >
+</attrib>
+<attrib Name="TitleForegroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="11" type="1" default="#ffffff" >
+</attrib>
+</attrib>
+<attrib Name="Textual" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="ReadOnly" parent="Textual" editable="1" visibleInEditor="1" type="4" default="false" >
+</attrib>
+<attrib Name="Text" parent="Textual" editable="0" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="TextExportTemplate" parent="Textual" editable="0" visibleInEditor="1" kind="10" default="" >
+</attrib>
+<attrib Name="TextLength" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="WordCount" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
+</attrib>
+<attrib Name="Wordcount" parent="Textual" editable="0" visibleInEditor="0" type="2" default="0" >
+</attrib>
+</attrib>
+<attrib Name="Weblog" parent="System" editable="0" visibleInEditor="1" default="" >
+<attrib Name="WeblogPostID" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mt_allow_comments" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="mt_allow_pings" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
+</attrib>
+<attrib Name="mt_convert_breaks" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mt_keywords" parent="Weblog" editable="1" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+</attrib>
+<attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
+</attrib>
+</attrib>
+<colors >
+<color name="black" color="#000000"  />
+<color name="blue" color="#003366"  />
+<color name="bright blue" color="#0000ff"  />
+<color name="bright green" color="#00ff00"  />
+<color name="bright red" color="#ff0000"  />
+<color name="cool gray" color="#607080"  />
+<color name="cool gray dark" color="#505860"  />
+<color name="cyan" color="#006666"  />
+<color name="green" color="#009900"  />
+<color name="magenta" color="#660066"  />
+<color name="normal" color="#bfd8bf"  />
+<color name="orange" color="#ff8800"  />
+<color name="poppy" color="#ffcc66"  />
+<color name="red" color="#990000"  />
+<color name="warm gray" color="#807060"  />
+<color name="warm gray dark" color="#605850"  />
+<color name="white" color="#ffffff"  />
+<color name="yellow" color="#cccc00"  />
+</colors>
+<menu name="Value" kind="stamps" >
+</menu>
+<linkTypes >
+<linkType name="*untitled" label="" visible="1" showLabel="0" color="#000000" style="0"  />
+<linkType name="agree" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="clarify" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="disagree" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="example" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="exception" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="note" visible="1" showLabel="1" color="#666666" style="0"  />
+<linkType name="note+" visible="1" showLabel="1" color="#444444" style="0"  />
+<linkType name="prototype" visible="0" showLabel="1" color="#993333" style="0"  />
+<linkType name="response" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="update" visible="1" showLabel="1" color="#000000" style="0"  />
+</linkTypes>
+<item ID="3329924457" Creator="system" >
+<attribute name="Created" >2009-07-08T19:00:46+01:00</attribute>
+<attribute name="MapScrollX" >3.61111</attribute>
+<attribute name="MapScrollY" >2.86111</attribute>
+<attribute name="Modified" >2009-07-08T19:00:46+01:00</attribute>
+<attribute name="Name" >Tinderbox-Collaboration-Template</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >0</attribute>
+<attribute name="Ypos" >0</attribute>
+<adornment ID="3329926429" Creator="system" >
+<attribute name="Border" >1</attribute>
+<attribute name="BorderColor" >darkest orange</attribute>
+<attribute name="Color" >light orange</attribute>
+<attribute name="Created" >2009-07-08T19:33:48+01:00</attribute>
+<attribute name="Height" >13</attribute>
+<attribute name="Lock" >true</attribute>
+<attribute name="MapTextSize" >50</attribute>
+<attribute name="Modified" >2009-07-08T19:33:48+01:00</attribute>
+<attribute name="Name" >personal spaces for participants</attribute>
+<attribute name="NameAlignment" >Left</attribute>
+<attribute name="NameBold" >true</attribute>
+<attribute name="NameColor" >darker orange</attribute>
+<attribute name="SelectionCount" >21</attribute>
+<attribute name="Width" >3.5</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >-4.5</attribute>
+</adornment>
+<item ID="3329926561" Creator="system" >
+<attribute name="Color" >lighter red</attribute>
+<attribute name="Created" >2009-07-08T19:36:00+01:00</attribute>
+<attribute name="Height" >2</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2009-07-08T19:36:00+01:00</attribute>
+<attribute name="Name" >Nathan</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Width" >2.5</attribute>
+<attribute name="Xpos" >1</attribute>
+<attribute name="Ypos" >-3</attribute>
+</item>
+<item ID="3329926613" Creator="system" >
+<attribute name="Created" >2009-07-08T19:36:52+01:00</attribute>
+<attribute name="Height" >2</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2009-07-08T19:36:52+01:00</attribute>
+<attribute name="Name" >Jessica</attribute>
+<attribute name="SelectionCount" >3</attribute>
+<attribute name="Width" >2.5</attribute>
+<attribute name="Xpos" >1</attribute>
+<attribute name="Ypos" >-1</attribute>
+</item>
+<item ID="3329926899" Creator="system" >
+<attribute name="Color" >lighter orange</attribute>
+<attribute name="Created" >2009-07-08T19:41:38+01:00</attribute>
+<attribute name="Height" >2</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2009-07-08T19:41:38+01:00</attribute>
+<attribute name="Name" >David</attribute>
+<attribute name="SelectionCount" >5</attribute>
+<attribute name="Width" >2.5</attribute>
+<attribute name="Xpos" >1</attribute>
+<attribute name="Ypos" >1</attribute>
+</item>
+<item ID="3329926921" Creator="system" >
+<attribute name="Color" >lighter blue</attribute>
+<attribute name="Created" >2009-07-08T19:42:00+01:00</attribute>
+<attribute name="Height" >2</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2009-07-08T19:42:00+01:00</attribute>
+<attribute name="Name" >Liz</attribute>
+<attribute name="SelectionCount" >5</attribute>
+<attribute name="Width" >2.5</attribute>
+<attribute name="Xpos" >1</attribute>
+<attribute name="Ypos" >3</attribute>
+</item>
+<item ID="3329926629" Creator="system" >
+<attribute name="Created" >2009-07-08T19:37:08+01:00</attribute>
+<attribute name="Height" >13</attribute>
+<attribute name="InteriorScale" >1.2</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="MapScrollX" >-0.263889</attribute>
+<attribute name="MapScrollY" >5.05833</attribute>
+<attribute name="Modified" >2009-07-08T19:37:08+01:00</attribute>
+<attribute name="Name" >Legend</attribute>
+<attribute name="SelectionCount" >22</attribute>
+<attribute name="TitleHeight" >1</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >-4</attribute>
+<attribute name="Ypos" >-4.5</attribute>
+<item ID="3329924505" Creator="system" >
+<attribute name="BorderBevel" >plain</attribute>
+<attribute name="BorderColor" >black</attribute>
+<attribute name="Color" >lighter green</attribute>
+<attribute name="Created" >2009-07-08T19:01:44+01:00</attribute>
+<attribute name="Height" >2</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="MapTextSize" >120</attribute>
+<attribute name="Modified" >2009-07-08T19:01:44+01:00</attribute>
+<attribute name="Name" >Participant</attribute>
+<attribute name="NameBold" >true</attribute>
+<attribute name="NameColor" >black</attribute>
+<attribute name="SelectionCount" >46</attribute>
+<attribute name="Width" >3.5</attribute>
+<attribute name="Xpos" >-2</attribute>
+<attribute name="Ypos" >-1</attribute>
+</item>
+<adornment ID="3329924816" Creator="system" >
+<attribute name="Border" >1</attribute>
+<attribute name="BorderBevel" >plain</attribute>
+<attribute name="BorderColor" >darkest green</attribute>
+<attribute name="Color" >light green</attribute>
+<attribute name="Created" >2009-07-08T19:06:55+01:00</attribute>
+<attribute name="Height" >16</attribute>
+<attribute name="Lock" >true</attribute>
+<attribute name="Modified" >2009-07-08T19:06:55+01:00</attribute>
+<attribute name="Name" >legend</attribute>
+<attribute name="NameAlignment" >Center</attribute>
+<attribute name="NameColor" >darkest green</attribute>
+<attribute name="Pattern" >plain</attribute>
+<attribute name="SelectionCount" >27</attribute>
+<attribute name="Width" >4.5</attribute>
+<attribute name="Xpos" >-2.5</attribute>
+<attribute name="Ypos" >-2.5</attribute>
+</adornment>
+<item ID="3329925093" Creator="system" >
+<attribute name="Border" >1</attribute>
+<attribute name="BorderBevel" >plain</attribute>
+<attribute name="BorderColor" >#575a5b</attribute>
+<attribute name="Color" >#c2cbce</attribute>
+<attribute name="Color2" >#879ea5</attribute>
+<attribute name="Created" >2009-07-08T19:11:32+01:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="KeyAttributes" >Color;Color2;BorderColor</attribute>
+<attribute name="MapScrollY" >0</attribute>
+<attribute name="MapTextSize" >75</attribute>
+<attribute name="Modified" >2009-07-08T19:11:32+01:00</attribute>
+<attribute name="Name" >General Note</attribute>
+<attribute name="NameColor" >#222222</attribute>
+<attribute name="Pattern" >diagonal</attribute>
+<attribute name="ReadCount" >3</attribute>
+<attribute name="SelectionCount" >43</attribute>
+<attribute name="ShadowBlur" >3</attribute>
+<attribute name="ShadowDistance" >4</attribute>
+<attribute name="Shape" >left tag</attribute>
+<attribute name="Width" >3.5</attribute>
+<attribute name="WindowPlace" >Rect[ 118 412 818 712]</attribute>
+<attribute name="Xpos" >-2</attribute>
+<attribute name="Ypos" >1</attribute>
+</item>
+<item ID="3329925713" Creator="system" >
+<attribute name="BorderColor" >#544344</attribute>
+<attribute name="Color" >#cbc2c2</attribute>
+<attribute name="Color2" >#967e7f</attribute>
+<attribute name="Created" >2009-07-08T19:21:52+01:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2009-07-08T19:21:52+01:00</attribute>
+<attribute name="Name" >Nathan&apos;s Note</attribute>
+<attribute name="ReadCount" >2</attribute>
+<attribute name="SelectionCount" >15</attribute>
+<attribute name="Width" >3.5</attribute>
+<attribute name="WindowPlace" >Rect[ 215 443 915 743]</attribute>
+<attribute name="Xpos" >-2</attribute>
+<attribute name="Ypos" >2.5</attribute>
+</item>
+<item ID="3329925774" Creator="system" >
+<attribute name="BorderColor" >#455949</attribute>
+<attribute name="Color" >#c5cdc4</attribute>
+<attribute name="Color2" >#92a389</attribute>
+<attribute name="Created" >2009-07-08T19:22:53+01:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Modified" >2009-07-08T19:22:53+01:00</attribute>
+<attribute name="Name" >Jessica&apos;s Note</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >11</attribute>
+<attribute name="Width" >3.5</attribute>
+<attribute name="Xpos" >-2</attribute>
+<attribute name="Ypos" >3.5</attribute>
+</item>
+<item ID="3329925817" Creator="system" >
+<attribute name="BorderColor" >#554f43</attribute>
+<attribute name="Color" >#cdcac2</attribute>
+<attribute name="Color2" >#9d8e71</attribute>
+<attribute name="Created" >2009-07-08T19:23:36+01:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Modified" >2009-07-08T19:23:36+01:00</attribute>
+<attribute name="Name" >David&apos;s Note</attribute>
+<attribute name="ReadCount" >2</attribute>
+<attribute name="SelectionCount" >14</attribute>
+<attribute name="Width" >3.5</attribute>
+<attribute name="Xpos" >-2</attribute>
+<attribute name="Ypos" >4.5</attribute>
+</item>
+<item ID="3329925906" Creator="system" >
+<attribute name="BorderColor" >#55505a</attribute>
+<attribute name="Color" >#c6c2cc</attribute>
+<attribute name="Color2" >#7c7599</attribute>
+<attribute name="Created" >2009-07-08T19:25:05+01:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Modified" >2009-07-08T19:25:05+01:00</attribute>
+<attribute name="Name" >Liz&apos;s Note</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >11</attribute>
+<attribute name="Width" >3.5</attribute>
+<attribute name="WindowPlace" >Rect[ 287 441 987 741]</attribute>
+<attribute name="Xpos" >-2</attribute>
+<attribute name="Ypos" >5.5</attribute>
+</item>
+<item ID="3329926045" Creator="system" >
+<attribute name="Border" >1</attribute>
+<attribute name="Color" >lighter yellow</attribute>
+<attribute name="Color2" >light yellow</attribute>
+<attribute name="Created" >2009-07-08T19:27:24+01:00</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Modified" >2009-07-08T19:32:17+01:00</attribute>
+<attribute name="Name" >Note</attribute>
+<attribute name="Pattern" >diagonal</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >25</attribute>
+<attribute name="TextSidebar" >false</attribute>
+<attribute name="Width" >3.5</attribute>
+<attribute name="WindowPlace" >Rect[ 609 44 1084 403]</attribute>
+<attribute name="Xpos" >-2</attribute>
+<attribute name="Ypos" >7</attribute>
+</item>
+<item ID="3329926190" Creator="system" >
+<attribute name="Color" >light black</attribute>
+<attribute name="Created" >2009-07-08T19:29:49+01:00</attribute>
+<attribute name="Height" >2.5</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Modified" >2009-07-08T19:29:49+01:00</attribute>
+<attribute name="Name" >Meeting</attribute>
+<attribute name="NameAlignment" >center</attribute>
+<attribute name="NameBold" >true</attribute>
+<attribute name="NameColor" >black</attribute>
+<attribute name="ReadCount" >3</attribute>
+<attribute name="SelectionCount" >21</attribute>
+<attribute name="TextSidebar" >false</attribute>
+<attribute name="Width" >3.5</attribute>
+<attribute name="WindowPlace" >Rect[ 215 222 655 546]</attribute>
+<attribute name="Xpos" >-2</attribute>
+<attribute name="Ypos" >10</attribute>
+</item>
+</item>
+</item>
+<links >
+<link name="prototype" sourceid="3329925093" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3329925713" destcreator="system"  />
+<link name="prototype" sourceid="3329925093" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3329925774" destcreator="system"  />
+<link name="prototype" sourceid="3329925093" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3329925817" destcreator="system"  />
+<link name="prototype" sourceid="3329925093" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3329925906" destcreator="system"  />
+<link name="prototype" sourceid="3329924505" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3329926561" destcreator="system"  />
+<link name="prototype" sourceid="3329924505" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3329926613" destcreator="system"  />
+<link name="prototype" sourceid="3329924505" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3329926899" destcreator="system"  />
+<link name="prototype" sourceid="3329924505" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3329926921" destcreator="system"  />
+</links>
+<macros >
+</macros>
+<preferences >
+   <Creator > system</Creator>
+   <ToolbarVisible > 1</ToolbarVisible>
+   <OpenTextImmediately > 0</OpenTextImmediately>
+   <RunScriptsAutomatically > 1</RunScriptsAutomatically>
+   <UseStartupWizard > 1</UseStartupWizard>
+   <RememberWindowPositions > 1</RememberWindowPositions>
+   <KeepWindowsOpen > 1</KeepWindowsOpen>
+   <LeftMargin > 2</LeftMargin>
+   <RightMargin > -2</RightMargin>
+   <ParagraphSpacing > 2</ParagraphSpacing>
+   <MagnifyFonts > 1</MagnifyFonts>
+   <TextFont > Lucida Grande</TextFont>
+   <TextSize > 3</TextSize>
+   <TextJust > 0</TextJust>
+   <AlwaysShowTextLinks > 1</AlwaysShowTextLinks>
+   <TextLinkFrames > 1</TextLinkFrames>
+   <TextLinkColor > 0 26112 52224</TextLinkColor>
+   <VisitedLinkColor > 26112 0 52224</VisitedLinkColor>
+   <ActiveLinkColor > 65535 0 0</ActiveLinkColor>
+   <MagnifyPictures > 1</MagnifyPictures>
+   <TextWindowWidth > 6</TextWindowWidth>
+   <TextWindowHeight > 4</TextWindowHeight>
+   <TextBackgroundColor > 65535 65535 65535</TextBackgroundColor>
+   <TextColor > 0 0 0</TextColor>
+   <ShowSidebar > 1</ShowSidebar>
+   <AutoIndentLists > 1</AutoIndentLists>
+   <ShowTitle > 1</ShowTitle>
+   <TitleBackgroundColor > 0 0 0</TitleBackgroundColor>
+   <TitleForegroundColor > 65535 65535 65535</TitleForegroundColor>
+   <TitleFont > Lucida Grande</TitleFont>
+   <TitleSize > 2</TitleSize>
+   <TitleJust > 2</TitleJust>
+   <MapShowLinks > 1</MapShowLinks>
+   <MapCurvedLinks > 1</MapCurvedLinks>
+   <MapEnacted > 1</MapEnacted>
+   <InPlaceEditing > 1</InPlaceEditing>
+   <MapLabelSize > 3</MapLabelSize>
+   <MapBackgroundColor > 48866 52221 52865</MapBackgroundColor>
+   <MapPrototypeColor > 36778 38715 36311</MapPrototypeColor>
+   <MapFont > Verdana</MapFont>
+   <DarkenOutlineColors > 1</DarkenOutlineColors>
+   <BlackOutlineText > 1</BlackOutlineText>
+   <OutlineLeading > 2</OutlineLeading>
+   <InteriorScale > 1</InteriorScale>
+   <ExpandMode > 1</ExpandMode>
+   <ExportImageFormat > 1</ExportImageFormat>
+   <ExportURL > http://</ExportURL>
+   <ExportHTMLCreator > 1</ExportHTMLCreator>
+   <ExportHTMLHelper > Safari</ExportHTMLHelper>
+   <ExportHTMLExtension > 0</ExportHTMLExtension>
+   <HTMLParagraphStyle > 1</HTMLParagraphStyle>
+   <HTMLViewFont > Lucida Grande</HTMLViewFont>
+   <HTMLViewFontSize > 2</HTMLViewFontSize>
+   <ExportTemplatePath > Macintosh HD:Applications:Tinderbox:Tinderbox.app:Contents:MacOS:templates:html:plain</ExportTemplatePath>
+   <ExportTemplate > Macintosh HD:Applications:Tinderbox:Tinderbox.app:Contents:MacOS:templates:html:plain</ExportTemplate>
+   <ExportTextTemplate > Macintosh HD:Applications:Tinderbox:Tinderbox.app:Contents:MacOS:templates:text:outline</ExportTextTemplate>
+   <RoadmapWindowWidth > 0</RoadmapWindowWidth>
+   <RoadmapWindowHeight > 0</RoadmapWindowHeight>
+   <ExportTextCreator > 1</ExportTextCreator>
+   <TextExportViewFont > Lucida Grande</TextExportViewFont>
+   <TextExportViewFontSize > 2</TextExportViewFontSize>
+   <ExportTextTemplatePath > Macintosh HD:Applications:Tinderbox:Tinderbox.app:Contents:MacOS:templates:text:outline</ExportTextTemplatePath>
+   <ExportTextHelper > TextEdit</ExportTextHelper>
+   <AskToDelete > 1</AskToDelete>
+   <DailyTip > 1</DailyTip>
+   <WarnEditingDefault > 1</WarnEditingDefault>
+   <WarnDuplicateName > 1</WarnDuplicateName>
+   <Version > Tinderbox™ 4.5.3 © Copyright 2003-2008  Eastgate Systems Inc.</Version>
+   <PreferencePane > 3</PreferencePane>
+   <Fontmap > 2
+ 1024 Lucida Grande
+ 4846 Helvetica Neue Light
+</Fontmap>
+   <TipWindowX > 300</TipWindowX>
+   <TipWindowY > 50</TipWindowY>
+   <RegUserName > J. Nathan Matias</RegUserName>
+   <RegUserOrg > </RegUserOrg>
+   <CurrentAttributeClass > Map</CurrentAttributeClass>
+   <CurrentAttribute > Prototype</CurrentAttribute>
+   <FindCaseSensitive > 1</FindCaseSensitive>
+   <ExportFolder > Macintosh HD:Applications:Tinderbox:Tinderbox.app:Contents:MacOS:</ExportFolder>
+   <ReadOnly > 0</ReadOnly>
+   <InfoWindowHeight > 0</InfoWindowHeight>
+   <InfoWindowWidth > 0</InfoWindowWidth>
+   <DynamicSpelling > 0</DynamicSpelling>
+   <RecentFiles > &lt;files &gt;
+&lt;file &gt;Macintosh HD:Users:nathan:Desktop:Git Sandbox:BasicTinderboxDocument.tbx&lt;/file&gt;
+&lt;file &gt;Macintosh HD:Users:nathan:Desktop:WUP:planning:July09FundraisingPlan.tbx&lt;/file&gt;
+&lt;file &gt;Macintosh HD:Users:nathan:Documents:Queue:Darwin-Debate:Debate-Thoughts.tbx&lt;/file&gt;
+&lt;file &gt;Macintosh HD:Users:nathan:Development:Emberlight-Project:docbox:test:fixtures:files:test_prototypes.tbx&lt;/file&gt;
+&lt;file &gt;Macintosh HD:Users:nathan:Documents:BookDatabase-July2008.tbx&lt;/file&gt;
+&lt;file &gt;Macintosh HD:Users:nathan:Development:Emberlight-Project:docbox:test:fixtures:files:test_item.tbx&lt;/file&gt;
+&lt;file &gt;Macintosh HD:Users:nathan:Documents:BookDatabase-July2008&lt;/file&gt;
+&lt;/files&gt;
+</RecentFiles>
+   <PingServer > http://rpc.weblogs.com/RPC2</PingServer>
+   <PingMethod > weblogUpdates.ping</PingMethod>
+   <PingTitle > your weblog name</PingTitle>
+   <PingURL > weblog URL</PingURL>
+      <PingTechnorati > 1</PingTechnorati>
+   <PingWeblogsCom > 1</PingWeblogsCom>
+   <PingGoogle > 1</PingGoogle>
+   <PingFeedURL > </PingFeedURL>
+   <WeblogServer > http://your_host/cgi-bin/mt/mt-xmlrpc.cgi</WeblogServer>
+   <WeblogUser > </WeblogUser>
+   <WeblogPassword > </WeblogPassword>
+   <WeblogID > 1</WeblogID>
+   <WeblogKind > 2</WeblogKind>
+   <ToolbarKind > 3</ToolbarKind>
+   <ReadingReminders > 0</ReadingReminders>
+   <AllowViews > 1</AllowViews>
+   <AutomaticAgentUpdate > 1</AutomaticAgentUpdate>
+   <ToolbarX > 69</ToolbarX>
+   <ToolbarY > 514</ToolbarY>
+   <FindWindowX > 600</FindWindowX>
+   <FindWindowY > 100</FindWindowY>
+   <RenameWindowX > 83</RenameWindowX>
+   <RenameWindowY > 60</RenameWindowY>
+   <UpdateViewShown > 2 Jul 2009 9:06:45</UpdateViewShown>
+   <ExportTextTemplatePath > Macintosh HD:Applications:Tinderbox:Tinderbox.app:Contents:MacOS:templates:text:outline</ExportTextTemplatePath>
+   <LeftMargin > 2</LeftMargin>
+   <RightMargin > -2</RightMargin>
+   <ParagraphSpacing > 2</ParagraphSpacing>
+   <MagnifyFonts > 1</MagnifyFonts>
+   <SoundOn > 1</SoundOn>
+   <BecomeReadOnly > 0</BecomeReadOnly>
+   <CheckMail > 0</CheckMail>
+   <MailHost > </MailHost>
+   <MailUser > </MailUser>
+   <MailPassword > </MailPassword>
+</preferences>
+<windows >
+<window ID="3329924457" Creator="system" type="outline" bounds="Rect[ 209 72 484 395]" x="0" y="0" scale="5" expanded="3329924457 " collapsed="3329926629 "  />
+<window ID="3329924457" Creator="system" type="map" bounds="Rect[ 492 70 1106 784]" x="272" y="262" scale="5" expanded="3329926629 " collapsed="3329924457 "  />
+</windows>
+</tinderbox>
