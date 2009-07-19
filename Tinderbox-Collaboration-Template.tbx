@@ -193,7 +193,7 @@
 </attrib>
 <attrib Name="ExitScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
 </attrib>
-<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="9" canInherit="0" default="Rect[ 50 50 750 350]" >
+<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="9" canInherit="0" default="" >
 </attrib>
 </attrib>
 <attrib Name="Map" parent="System" editable="0" visibleInEditor="1" default="" >
@@ -215,7 +215,7 @@
 </attrib>
 <attrib Name="Lock" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
-<attrib Name="MapBackgroundColor" parent="Map" editable="1" visibleInEditor="1" kind="3" type="1" default="#becbce" >
+<attrib Name="MapBackgroundColor" parent="Map" editable="1" visibleInEditor="1" kind="3" type="1" default="#35739f" >
 </attrib>
 <attrib Name="MapBodyTextColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="auto" >
 </attrib>
@@ -271,7 +271,7 @@
 </attrib>
 </attrib>
 <attrib Name="Outline" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="MapPrototypeColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="#8f978d" >
+<attrib Name="MapPrototypeColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="" >
 </attrib>
 <attrib Name="OutlineColorSwatch" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
@@ -331,7 +331,7 @@
 </attrib>
 <attrib Name="TextFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="18" default="Lucida Grande" >
 </attrib>
-<attrib Name="TextFontSize" parent="TextFormat" editable="1" visibleInEditor="1" kind="19" type="2" default="12" >
+<attrib Name="TextFontSize" parent="TextFormat" editable="1" visibleInEditor="1" kind="19" type="2" default="16" >
 </attrib>
 <attrib Name="TextSidebar" parent="TextFormat" editable="1" visibleInEditor="1" kind="17" type="4" default="true" >
 </attrib>
@@ -370,9 +370,21 @@
 </attrib>
 </attrib>
 <attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
+<attrib Name="flickr" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="github" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="linkedin" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="mefi" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="twitter" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
 </attrib>
 </attrib>
 <colors >
+<color name="askmefiforestgn" color="#1d5530"  />
+<color name="askmefigreen" color="#426746"  />
 <color name="black" color="#000000"  />
 <color name="blue" color="#003366"  />
 <color name="bright blue" color="#0000ff"  />
@@ -383,6 +395,11 @@
 <color name="cyan" color="#006666"  />
 <color name="green" color="#009900"  />
 <color name="magenta" color="#660066"  />
+<color name="mefi" color="#006699"  />
+<color name="mefibrown" color="#cccc99"  />
+<color name="mefigrey" color="#444444"  />
+<color name="mefiprojteal" color="#2d5a5a"  />
+<color name="mefiyellow" color="#cccc00"  />
 <color name="normal" color="#bfd8bf"  />
 <color name="orange" color="#ff8800"  />
 <color name="poppy" color="#ffcc66"  />
@@ -409,17 +426,17 @@
 </linkTypes>
 <item ID="3329924457" Creator="system" >
 <attribute name="Created" >2009-07-08T19:00:46+01:00</attribute>
-<attribute name="MapScrollX" >3.61111</attribute>
-<attribute name="MapScrollY" >2.86111</attribute>
+<attribute name="MapScrollX" >3.63889</attribute>
+<attribute name="MapScrollY" >2.77778</attribute>
 <attribute name="Modified" >2009-07-08T19:00:46+01:00</attribute>
 <attribute name="Name" >Tinderbox-Collaboration-Template</attribute>
 <attribute name="SelectionCount" >2</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <adornment ID="3329926429" Creator="system" >
-<attribute name="Border" >1</attribute>
+<attribute name="Border" >0</attribute>
 <attribute name="BorderColor" >darkest orange</attribute>
-<attribute name="Color" >light orange</attribute>
+<attribute name="Color" >darker mefi</attribute>
 <attribute name="Created" >2009-07-08T19:33:48+01:00</attribute>
 <attribute name="Height" >13</attribute>
 <attribute name="Lock" >true</attribute>
@@ -428,23 +445,228 @@
 <attribute name="Name" >personal spaces for participants</attribute>
 <attribute name="NameAlignment" >Left</attribute>
 <attribute name="NameBold" >true</attribute>
-<attribute name="NameColor" >darker orange</attribute>
-<attribute name="SelectionCount" >21</attribute>
+<attribute name="NameColor" >mefiyellow</attribute>
+<attribute name="SelectionCount" >33</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="Xpos" >0.5</attribute>
 <attribute name="Ypos" >-4.5</attribute>
 </adornment>
 <item ID="3329926561" Creator="system" >
-<attribute name="Color" >lighter red</attribute>
+<attribute name="Color" >lighter mefiprojteal</attribute>
 <attribute name="Created" >2009-07-08T19:36:00+01:00</attribute>
+<attribute name="Email" >natematias@gmail.com</attribute>
+<attribute name="FullName" >J. Nathan Matias</attribute>
 <attribute name="Height" >2</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="Modified" >2009-07-08T19:36:00+01:00</attribute>
+<attribute name="MapScrollX" >-0.805556</attribute>
+<attribute name="MapScrollY" >-0.305556</attribute>
+<attribute name="Modified" >2009-07-19T15:04:01+01:00</attribute>
 <attribute name="Name" >Nathan</attribute>
-<attribute name="SelectionCount" >6</attribute>
+<attribute name="Organization" >World University Project</attribute>
+<attribute name="ReadCount" >18</attribute>
+<attribute name="SelectionCount" >72</attribute>
+<attribute name="TextSidebar" >false</attribute>
 <attribute name="Width" >2.5</attribute>
+<attribute name="WindowPlace" >Rect[ 463 197 1013 604]</attribute>
 <attribute name="Xpos" >1</attribute>
 <attribute name="Ypos" >-3</attribute>
+<attribute name="flickr" >http://www.flickr.com/photos/natematias/</attribute>
+<attribute name="github" >http://github.com/natematias</attribute>
+<attribute name="mefi" >http://www.metafilter.com/user/45360</attribute>
+<attribute name="twitter" >http://www.twitter.com/natematias</attribute>
+<text >Hello everyone,The creator of this file representing an imaginary collaboration, I&apos;m quite keen to hear your feedback on how this file can be improved. So do include annotations and comment on my ideas as you see fit, and I am happy to consider branching your changes into the main repository.--J. Nathan Matias</text>
+<styles >
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="0" size="16" height="18" ascent="15" color="#000000"  />
+</styles>
+<item ID="3330862339" Creator="system" >
+<attribute name="Created" >2009-07-19T15:21:02+01:00</attribute>
+<attribute name="Height" >2</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2009-07-19T15:21:02+01:00</attribute>
+<attribute name="Name" >Nathan&apos;s Changelog</attribute>
+<attribute name="SelectionCount" >9</attribute>
+<attribute name="Width" >2.5</attribute>
+<attribute name="Xpos" >-2.5</attribute>
+<attribute name="Ypos" >-7.5</attribute>
+</item>
+<item ID="3330016912" Creator="J. Nathan Matias" >
+<attribute name="Created" >2009-06-24T11:31:38+01:00</attribute>
+<attribute name="Modified" >2009-06-27T19:08:06+01:00</attribute>
+<attribute name="Name" >Tinderbox and Version Management</attribute>
+<attribute name="ReadCount" >21</attribute>
+<attribute name="SelectionCount" >70</attribute>
+<attribute name="WindowPlace" >Rect[ 546 48 1065 568]</attribute>
+<attribute name="Xpos" >-6.5</attribute>
+<attribute name="Ypos" >-5.5</attribute>
+<text >Earlier this month, I took a careful look at version management for Tinderbox files. My paper at this year&apos;s Hypertext conference will be about comparing spatial hypertext collections, so I was curious to see just how well Tinderbox worked with existing solutions, such as git and SVN.Badly, it turns out. But it&apos;s not the fault of Tinderbox.^do(divider)^Tinderbox files are stored in XML, a plaintext format which is easy for other programs (like my Web Viewer) to load.In theory, the Tinderbox XML files should work well with Version Management software. The tools are designed for plaintext, and Tinderbox files are plaintext. Perfect!Unfortunately, the XML standard breaks some assumptions of version control systems. In most plaintext formats, the order of the lines is significant. Code is executed line by line, so software such as git and SVN treats the reordering of lines as a change. In some parts of XML however, the order of lines is insignificant. In those cases, changing the order of the lines does not imply a significant chance to the XML. Such changes confuse version tracking systems.Tinderbox follows the assumptions of XML. Two saves of the same tinderbox can look very different. As a result, git and SVN get very confused. This flickr gallery demonstrates just how confused version control systems can become:&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;http://www.flickr.com/photos/natematias/sets/72157620447762826/&quot; title=&quot;Araxis, by rubberpaw, on Flickr&quot;&gt;&lt;img src=&quot;http://farm4.static.flickr.com/3373/3656935654_a798ff1934.jpg&quot; width=&quot;500&quot; height=&quot;139&quot; alt=&quot;Araxis Merge&quot; / border=&quot;1&quot;&gt;&lt;/a&gt;&lt;/div&gt;I discovered this issue in advance of Tinderbox Weekend London, where I was speaking about version history, backups, and collaboration with Tinderbox. So late on Saturday night, Mark and I had a conversation at Spoons (yeah, I know), and he offered to look into it.Last week, I had a chance to look at beta versions of the next release of Tinderbox. These betas output consistent line order, and work smoothly with the version control systems I have tested.(in the next post, I explain how to set up and use Git on the Mac)</text>
+<styles >
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="0" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="68" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="77" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="273" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="276" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="281" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="284" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="454" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="464" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Lucida Grande" bold="0" italic="0" underline="0" start="1340" size="10" height="12" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="1615" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="1653" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="1677" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="1793" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="1797" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="2103" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="2139" size="10" height="13" ascent="10" color="#000000"  />
+</styles>
+</item>
+<item ID="3330016915" Creator="J. Nathan Matias" >
+<attribute name="Created" >2009-06-25T20:31:28+01:00</attribute>
+<attribute name="Modified" >2009-06-30T09:34:09+01:00</attribute>
+<attribute name="Name" >Backing up and Version Tracking With Git</attribute>
+<attribute name="ReadCount" >56</attribute>
+<attribute name="SelectionCount" >179</attribute>
+<attribute name="WindowPlace" >Rect[ 571 48 1168 697]</attribute>
+<attribute name="Xpos" >-6.5</attribute>
+<attribute name="Ypos" >-4.5</attribute>
+<text >In my last post, I explained why using Tinderbox properly with version management software has been tricky. In brief, two Tinderbox files can be identical in content, and yet have a very different file structure. That has confused tools like git and Subversion, which expect changes in the files to indicate changes have been made to the document.This post will explain how to use Git to back up and track the version history of your Tinderbox documents. In the post after this one (which I will post this weekend), I will demonstrate how to collaborate using Github, Unfuddle, or some  other online repository. The final post in this series will look at specific options for using Tinderbox with Git.^do(divider)^Preface: Ways to Share and Back Up* Finder Litter was my strategy before GIt. This involved making copies of documents at sporadic times, at various points of development.** The folder for this weblog is littered in this way. I have &quot;Lifebox&quot;, &quot;lifebox copy&quot;, &quot;Lifebox Copy.tbx&quot;, &quot;Lifebox copy 1&quot;, &quot;Lifebox.bak&quot;, &quot;Lifebox.orig&quot;, &quot;Lifebox-xrefered-to&quot; , and a &quot;baks&quot; folder full of other copies** These backup copies get messy, and it&apos;s hard to tell from the &quot;Date Modified&quot; which ones are older, since the date changed when I copied the files from my old laptop** These backup copies no longer work, since they are now out of sync with the current version of the template files, which are now themselves cluttered about all over* Time Machine, which comes with every Mac, will back up your files automatically. This is great. But it has some downsides:** There is only blunt control over what goes into the archive** You don&apos;t control when things go into the archive. While you may wish to archive things at certain key points in development, Time Machine will do it on a regular, timed basis. You might really wish to go back to where you were at midafternoon, but Time machine will take you back to the night before** To address the timing issue, you have to resort to Finder Litter, which will just get compounded over numerous Time Machine backups ** There is no facility for sharing** Time Machine is OK-ish for personal backups. But it won&apos;t help you with sharing materials or working with documents which you live with over time* At $99 a year for 50GB and a free 2GB option, Dropbox seems like a great way to back up and share your files-- so long as you&apos;re online with a good connection when you need to work on things** If you look at the instructions in this post and think that they&apos;re maybe too techie for you, Dropbox is a fine alternative.  ** note: the recent Tinderbox fix over line order will likely lead Tinderbox files to take up less space on Dropbox* Git is &quot;a free &amp; open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency.  Every Git clone is a full-fledged repository with complete history and full revision tracking capabilities, not dependent on network access or a central server.&quot; With git, you can:** Keep a version history of your things on your local computer** Decide which things are important to backup and version** Decide when the snapshots are made** Keep related files in sync** Create branches (of things like templates), in which you experiment with something you may not wish to keep, and then merge them into the main history when you decide to keep it, or just revert to the main history if you decide against it.&lt;a href=&quot;http://www.flickr.com/photos/natematias/3665047106/&quot; title=&quot;Finder Litter by rubberpaw, on Flickr&quot;&gt;&lt;img src=&quot;http://farm4.static.flickr.com/3416/3665047106_70660a22d1_m.jpg&quot; width=&quot;240&quot; height=&quot;141&quot; alt=&quot;Finder Litter&quot; /&gt;&lt;/a&gt;^do(divider)^Step 1: Obtain GitThere are two ways to install Git on OSX:* Git OSX Installer (Leopard Only)* MacPorts (Recommended, but very techie) ** MacPorts makes available a large number of useful GNU and other Free / Open Source software on your computer. To install, you will have to install Apple&apos;s XCode first, then run the MacPorts installer. You will need to sign up for an Apple Developer Connection account (quick and free) to access XCode.** After you hae installed MacPorts, run the following command from a Terminal:&lt;div class=&quot;leftindent&quot;&gt;sudo port install git-core&lt;/div&gt;You should download GitX, a very helpful tool.You will definitely want to get &quot;Shell Here&quot;, by John Daniel and Marc Liyanage, since you will probably end up using the Terminal at some point or other. This button, when you add it to the Finder, will open a Terminal in the current finder window (installation explained here). Step 2: How Git Works(note: why read my blog post when you can read Swicegood&apos;s helpful book, Pragmatic Version Control Using Git ?)Most of what you need to do will happen within GitX. There is also a helpful article on the GitX website, which is slightly more helpful for people who already have repositories.* First, initialize a repository. From GitX, select File-&gt;New  and select the folder you wish to track. ** Git will store all of its version history hidden inside this folder. ** If you delete this folder, your backup is deleted** If you copy this folder somewhere, your backups and version history also gets copied* Next, commit files to the repository, which tells git which files you want to backup and track. To do this, you:** Click the &quot;commit&quot; button, or select View-&gt;Commit from the menu. GitX will switch to &quot;commit view&quot; (click to see screenshots, with annotations).** To preview a file before committing it, just click on the file. Tinderbox files probably seem incomprehensible unless you know XML.** If you already have a repository and have already committed files, GitX will highlight files which have changed,  let you compare differences, and decide if you wish to commit those changes.** After previewing the files, drag them into the &quot;staged changes&quot; area to show which ones you wish to commit.** To help you find your changes later, Git permits you to add comments to your actions. My comment here is probably more verbose than necessary. ** Click &quot;Commit&quot; and your files will be added to the repository** If you go back to &quot;History View&quot;, Git will show the history of your archive much like stops on the rail line.* Whenever you want to commit something new to the archive, or just tell Git to update its archive to the most recent version of a file:** Use the File-&gt;Open menu to select the folder** Select &quot;Commit view.&quot; Git will show all of the files which have changed, or been added.** Repeat the steps you used to commit your files initially.* If you want to recover a file from your history, simply drag it from the &quot;History View&quot; into the Finder. If you want to use that older version in your archive:** Commit the current version** Overwrite the current version with the historical one you just dragged into the Finder, and commit again. Git will then archive the file you decided not to keep, while also letting you start again from an older version.This post is long enough, and I need to prepare for Hypertext 2009. I will write from Milan late next week about how to collaborate using Git. There will have to be a fourth post about how to use Tinderbox with Git.</text>
+<styles >
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="0" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="33" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="38" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="371" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="454" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="683" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="692" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="717" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="751" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="754" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="767" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="1452" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="1464" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="2311" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="2318" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="2704" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="2707" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="3725" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="3743" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="3788" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="3805" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="3823" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="3831" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4022" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4027" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4326" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4330" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4386" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4396" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4402" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4413" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4418" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4431" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4625" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4629" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="4633" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4654" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4702" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4713" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="1" start="4728" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4763" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4814" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4818" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4834" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4871" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="4955" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="4978" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="1" underline="0" start="4998" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="5007" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="5273" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="5279" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="1" underline="0" start="5420" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="5432" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="5469" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="5480" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="5576" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="5593" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="5788" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="5856" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="5908" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="5922" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="6027" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="6055" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="6202" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="6214" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="1" underline="0" start="6441" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="6451" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="6706" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="6718" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="7097" size="10" height="13" ascent="10" color="#0066cc"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="7111" size="10" height="13" ascent="10" color="#000000"  />
+</styles>
+</item>
+<adornment ID="3330016919" Creator="system" >
+<attribute name="Color" >light orange</attribute>
+<attribute name="Created" >2009-07-09T20:04:36+01:00</attribute>
+<attribute name="Height" >8.5</attribute>
+<attribute name="Modified" >2009-07-09T20:04:36+01:00</attribute>
+<attribute name="Name" >Blog posts about Git</attribute>
+<attribute name="SelectionCount" >7</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >-7.5</attribute>
+<attribute name="Ypos" >-7.5</attribute>
+</adornment>
+<item ID="3330016924" Creator="system" >
+<attribute name="Badge" >next</attribute>
+<attribute name="Created" >2009-07-09T20:05:05+01:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2009-07-19T14:53:44+01:00</attribute>
+<attribute name="Name" >Tinderbox, Git, and Online Repositories</attribute>
+<attribute name="ReadCount" >9</attribute>
+<attribute name="SelectionCount" >25</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="WindowPlace" >Rect[ 488 191 1188 491]</attribute>
+<attribute name="Xpos" >-6.5</attribute>
+<attribute name="Ypos" >-3</attribute>
+<text >This is part three in a series of blog posts on backup, version control, and collaboration using Tinderbox. Prior posts include:# Tinderbox and Version Management# Backing up and Version Tracking with GitThis post will explain how to use an online repository, and how to collaborate with others. The next and final post will suggest some patterns for multiple users to collaborate online using Git.Online Repositories: Github, Unfuddle, and CodebaseIn addition to using Git to track the history of your own materials, you can also use it to share your materials with others and collaborate with them. Many good online services exist to make this task simple. Three that I like are:* Github(free, if you let the public see your project, and a fee for private repositories)* Unfuddle (commercial, private repositories- I use this for my own projects)* Codebase (also very good commercial option)Good Explanations on how to use GithubWell, I was going to write something about setting up a github account online, but then I found these two excellent resources:* Pragmatic Bookshelf Insider Guide to Github (35 mins video)* Setting up a remote repository using GitHub and OSX, by Jasen MathaiUsing those resources you should be able to:# Sign up for an account with Github or some other service# Generate your public and private key (for security and authentication)# Push the contents of your local repository onto github or some other serviceThe online services themselves are very helpful (especially Github)  and will walk you through each step.Especially with Mathai&apos;s article, you should read it thoroughly before starting, because he often explains the simple option only after explaining the complicated way in great detail.If this all seems too technical, hang in there. Once you set up the online repository as described in these articles, you can still continue to use GitX in the same way I described before. Once you have set up a remote repository, you will only need to use the Terminal in order to run two commands: git pull, to fetch the latest version from github, and git push, to update Github with your latest commit. This will be easier if you installed Shell Here, earlier. If you have, simply:# Navigate to the folder# Press the &quot;Shell Here&quot; button which you have set up in Finder# Type the git command you need to run</text>
+<styles >
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="0" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="131" size="10" height="13" ascent="10" color="#20931e"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="163" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="402" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="453" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="902" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="940" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="949" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="952" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="2048" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="2056" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="1" italic="0" underline="0" start="2103" size="10" height="13" ascent="10" color="#000000"  />
+ <tstyle font="Geneva" bold="0" italic="0" underline="0" start="2111" size="10" height="13" ascent="10" color="#000000"  />
+</styles>
+</item>
+<item ID="3330016926" Creator="system" >
+<attribute name="Badge" >memo</attribute>
+<attribute name="Created" >2009-07-09T20:05:28+01:00</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2009-07-09T20:05:28+01:00</attribute>
+<attribute name="Name" >Collaboration Patterns</attribute>
+<attribute name="SelectionCount" >5</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-6.5</attribute>
+<attribute name="Ypos" >-1</attribute>
+</item>
+<item ID="3330862343" Creator="system" >
+<attribute name="Created" >2009-07-19T15:21:37+01:00</attribute>
+<attribute name="Height" >6.5</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2009-07-19T15:21:37+01:00</attribute>
+<attribute name="Name" >Nathan&apos;s TODO List</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Width" >2.5</attribute>
+<attribute name="Xpos" >-2.5</attribute>
+<attribute name="Ypos" >-5.5</attribute>
+</item>
 </item>
 <item ID="3329926613" Creator="system" >
 <attribute name="Created" >2009-07-08T19:36:52+01:00</attribute>
@@ -452,7 +674,7 @@
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2009-07-08T19:36:52+01:00</attribute>
 <attribute name="Name" >Jessica</attribute>
-<attribute name="SelectionCount" >3</attribute>
+<attribute name="SelectionCount" >5</attribute>
 <attribute name="Width" >2.5</attribute>
 <attribute name="Xpos" >1</attribute>
 <attribute name="Ypos" >-1</attribute>
@@ -476,12 +698,14 @@
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2009-07-08T19:42:00+01:00</attribute>
 <attribute name="Name" >Liz</attribute>
-<attribute name="SelectionCount" >5</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >9</attribute>
 <attribute name="Width" >2.5</attribute>
 <attribute name="Xpos" >1</attribute>
 <attribute name="Ypos" >3</attribute>
 </item>
 <item ID="3329926629" Creator="system" >
+<attribute name="Color" >mefiyellow</attribute>
 <attribute name="Created" >2009-07-08T19:37:08+01:00</attribute>
 <attribute name="Height" >13</attribute>
 <attribute name="InteriorScale" >1.2</attribute>
@@ -490,7 +714,7 @@
 <attribute name="MapScrollY" >5.05833</attribute>
 <attribute name="Modified" >2009-07-08T19:37:08+01:00</attribute>
 <attribute name="Name" >Legend</attribute>
-<attribute name="SelectionCount" >22</attribute>
+<attribute name="SelectionCount" >52</attribute>
 <attribute name="TitleHeight" >1</attribute>
 <attribute name="Width" >4</attribute>
 <attribute name="Xpos" >-4</attribute>
@@ -498,16 +722,17 @@
 <item ID="3329924505" Creator="system" >
 <attribute name="BorderBevel" >plain</attribute>
 <attribute name="BorderColor" >black</attribute>
-<attribute name="Color" >lighter green</attribute>
+<attribute name="Color" >lighter mefigrey</attribute>
 <attribute name="Created" >2009-07-08T19:01:44+01:00</attribute>
 <attribute name="Height" >2</attribute>
 <attribute name="IsPrototype" >true</attribute>
+<attribute name="KeyAttributes" >Email;Address;Organization;FullName;Telephone;flickr;github;linkedin;mefi;twitter</attribute>
 <attribute name="MapTextSize" >120</attribute>
 <attribute name="Modified" >2009-07-08T19:01:44+01:00</attribute>
 <attribute name="Name" >Participant</attribute>
 <attribute name="NameBold" >true</attribute>
 <attribute name="NameColor" >black</attribute>
-<attribute name="SelectionCount" >46</attribute>
+<attribute name="SelectionCount" >74</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="Xpos" >-2</attribute>
 <attribute name="Ypos" >-1</attribute>
@@ -534,8 +759,8 @@
 <attribute name="Border" >1</attribute>
 <attribute name="BorderBevel" >plain</attribute>
 <attribute name="BorderColor" >#575a5b</attribute>
-<attribute name="Color" >#c2cbce</attribute>
-<attribute name="Color2" >#879ea5</attribute>
+<attribute name="Color" >light mefi</attribute>
+<attribute name="Color2" >lightest mefi</attribute>
 <attribute name="Created" >2009-07-08T19:11:32+01:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="IsPrototype" >true</attribute>
@@ -544,29 +769,32 @@
 <attribute name="MapTextSize" >75</attribute>
 <attribute name="Modified" >2009-07-08T19:11:32+01:00</attribute>
 <attribute name="Name" >General Note</attribute>
-<attribute name="NameColor" >#222222</attribute>
+<attribute name="NameBold" >true</attribute>
+<attribute name="NameColor" >white</attribute>
 <attribute name="Pattern" >diagonal</attribute>
 <attribute name="ReadCount" >3</attribute>
-<attribute name="SelectionCount" >43</attribute>
+<attribute name="SelectionCount" >53</attribute>
 <attribute name="ShadowBlur" >3</attribute>
 <attribute name="ShadowDistance" >4</attribute>
 <attribute name="Shape" >left tag</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="WindowPlace" >Rect[ 118 412 818 712]</attribute>
 <attribute name="Xpos" >-2</attribute>
-<attribute name="Ypos" >1</attribute>
+<attribute name="Ypos" >1.5</attribute>
 </item>
 <item ID="3329925713" Creator="system" >
-<attribute name="BorderColor" >#544344</attribute>
-<attribute name="Color" >#cbc2c2</attribute>
-<attribute name="Color2" >#967e7f</attribute>
+<attribute name="BorderColor" >mefi</attribute>
+<attribute name="Color" >mefiprojteal</attribute>
+<attribute name="Color2" >mefi</attribute>
 <attribute name="Created" >2009-07-08T19:21:52+01:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2009-07-08T19:21:52+01:00</attribute>
 <attribute name="Name" >Nathan&apos;s Note</attribute>
+<attribute name="NameColor" >mefiyellow</attribute>
+<attribute name="Pattern" >lines</attribute>
 <attribute name="ReadCount" >2</attribute>
-<attribute name="SelectionCount" >15</attribute>
+<attribute name="SelectionCount" >21</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="WindowPlace" >Rect[ 215 443 915 743]</attribute>
 <attribute name="Xpos" >-2</attribute>
@@ -574,45 +802,48 @@
 </item>
 <item ID="3329925774" Creator="system" >
 <attribute name="BorderColor" >#455949</attribute>
-<attribute name="Color" >#c5cdc4</attribute>
+<attribute name="Color" >#a5ada4</attribute>
 <attribute name="Color2" >#92a389</attribute>
 <attribute name="Created" >2009-07-08T19:22:53+01:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="IsPrototype" >true</attribute>
 <attribute name="Modified" >2009-07-08T19:22:53+01:00</attribute>
 <attribute name="Name" >Jessica&apos;s Note</attribute>
+<attribute name="Pattern" >lines</attribute>
 <attribute name="ReadCount" >1</attribute>
-<attribute name="SelectionCount" >11</attribute>
+<attribute name="SelectionCount" >16</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="Xpos" >-2</attribute>
 <attribute name="Ypos" >3.5</attribute>
 </item>
 <item ID="3329925817" Creator="system" >
 <attribute name="BorderColor" >#554f43</attribute>
-<attribute name="Color" >#cdcac2</attribute>
-<attribute name="Color2" >#9d8e71</attribute>
+<attribute name="Color" >#adaaa2</attribute>
+<attribute name="Color2" >#ad9e81</attribute>
 <attribute name="Created" >2009-07-08T19:23:36+01:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="IsPrototype" >true</attribute>
 <attribute name="Modified" >2009-07-08T19:23:36+01:00</attribute>
 <attribute name="Name" >David&apos;s Note</attribute>
+<attribute name="Pattern" >lines</attribute>
 <attribute name="ReadCount" >2</attribute>
-<attribute name="SelectionCount" >14</attribute>
+<attribute name="SelectionCount" >18</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="Xpos" >-2</attribute>
 <attribute name="Ypos" >4.5</attribute>
 </item>
 <item ID="3329925906" Creator="system" >
 <attribute name="BorderColor" >#55505a</attribute>
-<attribute name="Color" >#c6c2cc</attribute>
-<attribute name="Color2" >#7c7599</attribute>
+<attribute name="Color" >#a6a2ac</attribute>
+<attribute name="Color2" >#9c95b9</attribute>
 <attribute name="Created" >2009-07-08T19:25:05+01:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="IsPrototype" >true</attribute>
 <attribute name="Modified" >2009-07-08T19:25:05+01:00</attribute>
 <attribute name="Name" >Liz&apos;s Note</attribute>
+<attribute name="Pattern" >lines</attribute>
 <attribute name="ReadCount" >1</attribute>
-<attribute name="SelectionCount" >11</attribute>
+<attribute name="SelectionCount" >16</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="WindowPlace" >Rect[ 287 441 987 741]</attribute>
 <attribute name="Xpos" >-2</attribute>
@@ -629,7 +860,7 @@
 <attribute name="Name" >Note</attribute>
 <attribute name="Pattern" >diagonal</attribute>
 <attribute name="ReadCount" >1</attribute>
-<attribute name="SelectionCount" >25</attribute>
+<attribute name="SelectionCount" >26</attribute>
 <attribute name="TextSidebar" >false</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="WindowPlace" >Rect[ 609 44 1084 403]</attribute>
@@ -637,17 +868,17 @@
 <attribute name="Ypos" >7</attribute>
 </item>
 <item ID="3329926190" Creator="system" >
-<attribute name="Color" >light black</attribute>
+<attribute name="Color" >light white</attribute>
 <attribute name="Created" >2009-07-08T19:29:49+01:00</attribute>
 <attribute name="Height" >2.5</attribute>
 <attribute name="IsPrototype" >true</attribute>
 <attribute name="Modified" >2009-07-08T19:29:49+01:00</attribute>
-<attribute name="Name" >Meeting</attribute>
+<attribute name="Name" >Meetup</attribute>
 <attribute name="NameAlignment" >center</attribute>
 <attribute name="NameBold" >true</attribute>
-<attribute name="NameColor" >black</attribute>
+<attribute name="NameColor" >warm gray</attribute>
 <attribute name="ReadCount" >3</attribute>
-<attribute name="SelectionCount" >21</attribute>
+<attribute name="SelectionCount" >24</attribute>
 <attribute name="TextSidebar" >false</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="WindowPlace" >Rect[ 215 222 655 546]</attribute>
@@ -665,6 +896,45 @@
 <link name="prototype" sourceid="3329924505" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3329926613" destcreator="system"  />
 <link name="prototype" sourceid="3329924505" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3329926899" destcreator="system"  />
 <link name="prototype" sourceid="3329924505" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3329926921" destcreator="system"  />
+<link name="*untitled" sourceid="3330016912" sourcecreator="J. Nathan Matias" sstart="273" slen="3" style="0" destid="3329924457" destcreator="system" URL="http://git-scm.com/"  />
+<link name="*untitled" sourceid="3330016912" sourcecreator="J. Nathan Matias" sstart="281" slen="3" style="0" destid="3329924457" destcreator="system" URL="http://git-scm.com/"  />
+<link name="*untitled" sourceid="3330016912" sourcecreator="J. Nathan Matias" sstart="454" slen="10" style="0" destid="3329924457" destcreator="system" URL="http://www.natematias.com/mapViewer/"  />
+<link name="*untitled" sourceid="3330016912" sourcecreator="J. Nathan Matias" sstart="1653" slen="24" style="0" destid="3329924457" destcreator="system" URL="http://www.markbernstein.org/May09/TinderboxWeekendLondon.html"  />
+<link name="*untitled" sourceid="3330016912" sourcecreator="J. Nathan Matias" sstart="68" slen="9" style="0" destid="3329924457" destcreator="system" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3330016912" sourcecreator="J. Nathan Matias" sstart="1793" slen="4" style="0" destid="3329924457" destcreator="system" URL="http://www.markbernstein.org"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="3788" slen="17" style="0" destid="3329924457" destcreator="system" URL="http://code.google.com/p/git-osx-installer/downloads/list?can=3"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="3823" slen="8" style="0" destid="3329924457" destcreator="system" URL="http://www.macports.org/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="4022" slen="5" style="0" destid="3329924457" destcreator="system" URL="http://developer.apple.com/tools/xcode/index.html"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="4326" slen="4" style="0" destid="3329924457" destcreator="system" URL="http://gitx.frim.nl/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="4418" slen="13" style="0" destid="3329924457" destcreator="system" URL="http://www.entropy.ch/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="4402" slen="11" style="0" destid="3329924457" destcreator="system" URL="http://etreblog.etresoft.org/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="4625" slen="4" style="0" destid="3329924457" destcreator="system" URL="http://www.entropy.ch/software/applescript/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="4728" slen="35" style="0" destid="3329924457" destcreator="system" URL="http://oreilly.com/catalog/9781934356159/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="4702" slen="11" style="0" destid="3329924457" destcreator="system" URL="http://www.travisswicegood.com/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="2311" slen="7" style="0" destid="3329924457" destcreator="system" URL="http://www.getdropbox.com/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="2704" slen="3" style="0" destid="3329924457" destcreator="system" URL="http://git-scm.com/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="5576" slen="17" style="0" destid="3329924457" destcreator="system" URL="http://www.flickr.com/photos/natematias/3665248520/in/photostream/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="5469" slen="11" style="0" destid="3329924457" destcreator="system" URL="http://www.flickr.com/photos/natematias/3664444287/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="5788" slen="68" style="0" destid="3329924457" destcreator="system" URL="http://www.flickr.com/photos/natematias/3665248752/in/photostream/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="5908" slen="14" style="0" destid="3329924457" destcreator="system" URL="http://www.flickr.com/photos/natematias/3664444839/in/photostream/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="6027" slen="28" style="0" destid="3329924457" destcreator="system" URL="http://www.flickr.com/photos/natematias/3664445025/in/photostream/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="6202" slen="12" style="0" destid="3329924457" destcreator="system" URL="http://www.flickr.com/photos/natematias/3664445255/in/photostream/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="6706" slen="12" style="0" destid="3329924457" destcreator="system" URL="http://www.flickr.com/photos/natematias/3664445255/in/photostream/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="7097" slen="14" style="0" destid="3329924457" destcreator="system" URL="http://www.ht2009.org/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="683" slen="9" style="0" destid="3329924457" destcreator="system" URL="http://www.eastgate.com/Tinderbox/"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="4386" slen="10" style="0" destid="3329924457" destcreator="system" URL="http://www.etresoft.org/shellhere.html"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="4834" slen="37" style="0" destid="3329924457" destcreator="system" URL="http://gitx.frim.nl/user_manual.html"  />
+<link name="*untitled" sourceid="3330016915" sourcecreator="J. Nathan Matias" sstart="4814" slen="4" style="0" destid="3329924457" destcreator="system" URL="http://gitx.frim.nl/"  />
+<link name="*untitled" sourceid="3330016924" sourcecreator="system" sstart="0" slen="2361" style="0" destid="3330016912" destcreator="J. Nathan Matias"  />
+<link name="*untitled" sourceid="3330016924" sourcecreator="system" sstart="0" slen="2361" style="0" destid="3330016915" destcreator="J. Nathan Matias"  />
+<link name="*untitled" sourceid="3330016924" sourcecreator="system" sstart="689" slen="6" style="0" destid="3329924457" destcreator="system" URL="http://github.com/"  />
+<link name="*untitled" sourceid="3330016924" sourcecreator="system" sstart="780" slen="8" style="0" destid="3329924457" destcreator="system" URL="http://www.unfuddle.com"  />
+<link name="*untitled" sourceid="3330016924" sourcecreator="system" sstart="858" slen="8" style="0" destid="3329924457" destcreator="system" URL="http://www.codebasehq.com/"  />
+<link name="*untitled" sourceid="3330016924" sourcecreator="system" sstart="1090" slen="23" style="0" destid="3329924457" destcreator="system" URL="http://www.pragprog.com/screencasts/v-scgithub/insider-guide-to-github"  />
+<link name="*untitled" sourceid="3330016924" sourcecreator="system" sstart="1132" slen="51" style="0" destid="3329924457" destcreator="system" URL="http://github.com/guides/setting-up-a-remote-repository-using-github-and-osx"  />
+<link name="*untitled" sourceid="3330016924" sourcecreator="system" sstart="2192" slen="10" style="0" destid="3329924457" destcreator="system" URL="http://www.etresoft.org/shellhere.html"  />
+<link name="prototype" sourceid="3329926045" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3330862339" destcreator="system"  />
+<link name="prototype" sourceid="3329926045" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3330862343" destcreator="system"  />
 </links>
 <macros >
 </macros>
@@ -681,7 +951,7 @@
    <ParagraphSpacing > 2</ParagraphSpacing>
    <MagnifyFonts > 1</MagnifyFonts>
    <TextFont > Lucida Grande</TextFont>
-   <TextSize > 3</TextSize>
+   <TextSize > 5</TextSize>
    <TextJust > 0</TextJust>
    <AlwaysShowTextLinks > 1</AlwaysShowTextLinks>
    <TextLinkFrames > 1</TextLinkFrames>
@@ -706,7 +976,7 @@
    <MapEnacted > 1</MapEnacted>
    <InPlaceEditing > 1</InPlaceEditing>
    <MapLabelSize > 3</MapLabelSize>
-   <MapBackgroundColor > 48866 52221 52865</MapBackgroundColor>
+   <MapBackgroundColor > 13624 29659 40861</MapBackgroundColor>
    <MapPrototypeColor > 36778 38715 36311</MapPrototypeColor>
    <MapFont > Verdana</MapFont>
    <DarkenOutlineColors > 1</DarkenOutlineColors>
@@ -739,14 +1009,14 @@
    <Version > Tinderbox™ 4.5.3 © Copyright 2003-2008  Eastgate Systems Inc.</Version>
    <PreferencePane > 3</PreferencePane>
    <Fontmap > 2
+ 3 Geneva
  1024 Lucida Grande
- 4846 Helvetica Neue Light
 </Fontmap>
    <TipWindowX > 300</TipWindowX>
    <TipWindowY > 50</TipWindowY>
    <RegUserName > J. Nathan Matias</RegUserName>
    <RegUserOrg > </RegUserOrg>
-   <CurrentAttributeClass > Map</CurrentAttributeClass>
+   <CurrentAttributeClass > Appearance</CurrentAttributeClass>
    <CurrentAttribute > Prototype</CurrentAttribute>
    <FindCaseSensitive > 1</FindCaseSensitive>
    <ExportFolder > Macintosh HD:Applications:Tinderbox:Tinderbox.app:Contents:MacOS:</ExportFolder>
@@ -781,8 +1051,8 @@
    <ReadingReminders > 0</ReadingReminders>
    <AllowViews > 1</AllowViews>
    <AutomaticAgentUpdate > 1</AutomaticAgentUpdate>
-   <ToolbarX > 69</ToolbarX>
-   <ToolbarY > 514</ToolbarY>
+   <ToolbarX > 902</ToolbarX>
+   <ToolbarY > 702</ToolbarY>
    <FindWindowX > 600</FindWindowX>
    <FindWindowY > 100</FindWindowY>
    <RenameWindowX > 83</RenameWindowX>
@@ -801,7 +1071,8 @@
    <MailPassword > </MailPassword>
 </preferences>
 <windows >
-<window ID="3329924457" Creator="system" type="outline" bounds="Rect[ 209 72 484 395]" x="0" y="0" scale="5" expanded="3329924457 " collapsed="3329926629 "  />
-<window ID="3329924457" Creator="system" type="map" bounds="Rect[ 492 70 1106 784]" x="272" y="262" scale="5" expanded="3329926629 " collapsed="3329924457 "  />
+<window ID="3329926561" Creator="system" type="text" bounds="Rect[ 463 197 1013 604]" x="0" y="0" scale="1"  />
+<window ID="3329924457" Creator="system" type="outline" bounds="Rect[ 496 63 771 386]" x="0" y="0" scale="5" expanded="3329924457 3329926561 " collapsed="3329926629 "  />
+<window ID="3329926629" Creator="system" type="map" bounds="Rect[ 154 77 768 791]" x="79" y="270" scale="5" collapsed="3329926629 "  />
 </windows>
 </tinderbox>
