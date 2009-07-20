@@ -271,7 +271,7 @@
 </attrib>
 </attrib>
 <attrib Name="Outline" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="MapPrototypeColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="" >
+<attrib Name="MapPrototypeColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="#8f978d" >
 </attrib>
 <attrib Name="OutlineColorSwatch" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
 </attrib>
@@ -376,6 +376,10 @@
 </attrib>
 <attrib Name="linkedin" parent="User" editable="1" visibleInEditor="1" default="" >
 </attrib>
+<attrib Name="location" parent="User" editable="1" visibleInEditor="1" default="" >
+</attrib>
+<attrib Name="meetingtime" parent="User" editable="1" visibleInEditor="1" type="5" default="2009-07-20T09:59:33+01:00" >
+</attrib>
 <attrib Name="mefi" parent="User" editable="1" visibleInEditor="1" default="" >
 </attrib>
 <attrib Name="twitter" parent="User" editable="1" visibleInEditor="1" default="" >
@@ -427,8 +431,8 @@
 </linkTypes>
 <item ID="3329924457" Creator="system" >
 <attribute name="Created" >2009-07-08T19:00:46+01:00</attribute>
-<attribute name="MapScrollX" >3.13889</attribute>
-<attribute name="MapScrollY" >2.38889</attribute>
+<attribute name="MapScrollX" >0.5</attribute>
+<attribute name="MapScrollY" >5.27778</attribute>
 <attribute name="Modified" >2009-07-08T19:00:46+01:00</attribute>
 <attribute name="Name" >Tinderbox-Collaboration-Template</attribute>
 <attribute name="SelectionCount" >2</attribute>
@@ -447,7 +451,7 @@
 <attribute name="NameAlignment" >Left</attribute>
 <attribute name="NameBold" >true</attribute>
 <attribute name="NameColor" >mefiyellow</attribute>
-<attribute name="SelectionCount" >34</attribute>
+<attribute name="SelectionCount" >36</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="Xpos" >0.5</attribute>
 <attribute name="Ypos" >-4.5</attribute>
@@ -459,13 +463,14 @@
 <attribute name="FullName" >J. Nathan Matias</attribute>
 <attribute name="Height" >2</attribute>
 <attribute name="IsPrototype" >false</attribute>
+<attribute name="Lock" >true</attribute>
 <attribute name="MapScrollX" >-1.75</attribute>
 <attribute name="MapScrollY" >2.66667</attribute>
 <attribute name="Modified" >2009-07-19T15:04:01+01:00</attribute>
 <attribute name="Name" >Nathan</attribute>
 <attribute name="Organization" >World University Project</attribute>
 <attribute name="ReadCount" >26</attribute>
-<attribute name="SelectionCount" >95</attribute>
+<attribute name="SelectionCount" >97</attribute>
 <attribute name="TextSidebar" >false</attribute>
 <attribute name="Width" >2.5</attribute>
 <attribute name="WindowPlace" >Rect[ 463 197 1013 604]</attribute>
@@ -684,9 +689,11 @@
 <attribute name="Created" >2009-07-19T16:07:07+01:00</attribute>
 <attribute name="Height" >2</attribute>
 <attribute name="IsPrototype" >false</attribute>
+<attribute name="KeyAttributes" >Color;Color2</attribute>
 <attribute name="Modified" >2009-07-19T16:07:07+01:00</attribute>
 <attribute name="Name" >The World University Project Team to Libya WorldUniversityProject.org</attribute>
-<attribute name="SelectionCount" >6</attribute>
+<attribute name="ReadCount" >1</attribute>
+<attribute name="SelectionCount" >10</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >-0.5</attribute>
 <attribute name="Ypos" >1</attribute>
@@ -766,16 +773,17 @@
 <attribute name="Ypos" >3</attribute>
 </item>
 <item ID="3329926629" Creator="system" >
-<attribute name="Color" >mefiyellow</attribute>
+<attribute name="Color" >mefiprojteal</attribute>
 <attribute name="Created" >2009-07-08T19:37:08+01:00</attribute>
 <attribute name="Height" >13</attribute>
 <attribute name="InteriorScale" >1.2</attribute>
 <attribute name="IsPrototype" >false</attribute>
+<attribute name="Lock" >true</attribute>
 <attribute name="MapScrollX" >-0.263889</attribute>
 <attribute name="MapScrollY" >5.05833</attribute>
 <attribute name="Modified" >2009-07-08T19:37:08+01:00</attribute>
 <attribute name="Name" >Legend</attribute>
-<attribute name="SelectionCount" >59</attribute>
+<attribute name="SelectionCount" >70</attribute>
 <attribute name="TitleHeight" >1</attribute>
 <attribute name="Width" >4</attribute>
 <attribute name="Xpos" >-4</attribute>
@@ -793,7 +801,7 @@
 <attribute name="Name" >Participant</attribute>
 <attribute name="NameBold" >true</attribute>
 <attribute name="NameColor" >black</attribute>
-<attribute name="SelectionCount" >76</attribute>
+<attribute name="SelectionCount" >79</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="Xpos" >-2</attribute>
 <attribute name="Ypos" >-1</attribute>
@@ -825,7 +833,6 @@
 <attribute name="Created" >2009-07-08T19:11:32+01:00</attribute>
 <attribute name="Height" >1</attribute>
 <attribute name="IsPrototype" >true</attribute>
-<attribute name="KeyAttributes" >Color;Color2;BorderColor</attribute>
 <attribute name="MapScrollY" >0</attribute>
 <attribute name="MapTextSize" >75</attribute>
 <attribute name="Modified" >2009-07-08T19:11:32+01:00</attribute>
@@ -833,8 +840,8 @@
 <attribute name="NameBold" >true</attribute>
 <attribute name="NameColor" >white</attribute>
 <attribute name="Pattern" >diagonal</attribute>
-<attribute name="ReadCount" >3</attribute>
-<attribute name="SelectionCount" >53</attribute>
+<attribute name="ReadCount" >4</attribute>
+<attribute name="SelectionCount" >56</attribute>
 <attribute name="ShadowBlur" >3</attribute>
 <attribute name="ShadowDistance" >4</attribute>
 <attribute name="Shape" >left tag</attribute>
@@ -855,7 +862,7 @@
 <attribute name="NameColor" >mefiyellow</attribute>
 <attribute name="Pattern" >lines</attribute>
 <attribute name="ReadCount" >2</attribute>
-<attribute name="SelectionCount" >26</attribute>
+<attribute name="SelectionCount" >27</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="WindowPlace" >Rect[ 215 443 915 743]</attribute>
 <attribute name="Xpos" >-2</attribute>
@@ -933,18 +940,73 @@
 <attribute name="Created" >2009-07-08T19:29:49+01:00</attribute>
 <attribute name="Height" >2.5</attribute>
 <attribute name="IsPrototype" >true</attribute>
+<attribute name="KeyAttributes" >location;meetingtime</attribute>
 <attribute name="Modified" >2009-07-08T19:29:49+01:00</attribute>
 <attribute name="Name" >Meetup</attribute>
 <attribute name="NameAlignment" >center</attribute>
 <attribute name="NameBold" >true</attribute>
 <attribute name="NameColor" >warm gray</attribute>
-<attribute name="ReadCount" >3</attribute>
-<attribute name="SelectionCount" >24</attribute>
+<attribute name="ReadCount" >5</attribute>
+<attribute name="SelectionCount" >33</attribute>
 <attribute name="TextSidebar" >false</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="WindowPlace" >Rect[ 215 222 655 546]</attribute>
 <attribute name="Xpos" >-2</attribute>
 <attribute name="Ypos" >10</attribute>
+</item>
+</item>
+<agent ID="3330928522" Creator="system" >
+<attribute name="Agent" >true</attribute>
+<attribute name="AgentCaseSensitive" >false</attribute>
+<attribute name="AgentQuery" >StringAttribute(IsPrototype)!=True</attribute>
+<attribute name="Color" >mefiprojteal</attribute>
+<attribute name="Created" >2009-07-20T09:53:39+01:00</attribute>
+<attribute name="HTMLExportChildren" >false</attribute>
+<attribute name="Height" >1</attribute>
+<attribute name="InteriorScale" >4</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Lock" >true</attribute>
+<attribute name="MapBackgroundColor" >#eeeedd</attribute>
+<attribute name="MapScrollX" >11.6667</attribute>
+<attribute name="MapScrollY" >3.77778</attribute>
+<attribute name="Modified" >2009-07-20T09:53:39+01:00</attribute>
+<attribute name="Name" >Recent Changes</attribute>
+<attribute name="SelectionCount" >23</attribute>
+<attribute name="Sort" >Modified</attribute>
+<attribute name="SortBackward" >true</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >-4</attribute>
+<attribute name="Ypos" >-5.5</attribute>
+</agent>
+<item ID="3330928938" Creator="system" >
+<attribute name="Badge" >no</attribute>
+<attribute name="BorderColor" >#888888</attribute>
+<attribute name="Color" >black</attribute>
+<attribute name="Created" >2009-07-20T10:02:17+01:00</attribute>
+<attribute name="Height" >2</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Lock" >true</attribute>
+<attribute name="MapBackgroundColor" >darkest white</attribute>
+<attribute name="MapTextSize" >200</attribute>
+<attribute name="Modified" >2009-07-20T10:02:17+01:00</attribute>
+<attribute name="Name" >Trash</attribute>
+<attribute name="NameBold" >true</attribute>
+<attribute name="NameColor" >darkest white</attribute>
+<attribute name="NameFont" >helvetica</attribute>
+<attribute name="SelectionCount" >8</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >-4</attribute>
+<attribute name="Ypos" >8.5</attribute>
+<attribute name="meetingtime" >2009-07-20T09:59:33+01:00</attribute>
+<item ID="3330929148" Creator="system" >
+<attribute name="Created" >2009-07-20T10:05:47+01:00</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2009-07-20T10:05:47+01:00</attribute>
+<attribute name="Name" >untitled</attribute>
+<attribute name="SelectionCount" >2</attribute>
+<attribute name="Xpos" >-0.5</attribute>
+<attribute name="Ypos" >-0.5</attribute>
+<attribute name="meetingtime" >2009-07-20T09:59:33+01:00</attribute>
 </item>
 </item>
 </item>
@@ -1081,7 +1143,7 @@
    <TipWindowY > 50</TipWindowY>
    <RegUserName > J. Nathan Matias</RegUserName>
    <RegUserOrg > </RegUserOrg>
-   <CurrentAttributeClass > Appearance</CurrentAttributeClass>
+   <CurrentAttributeClass > Map</CurrentAttributeClass>
    <CurrentAttribute > Prototype</CurrentAttribute>
    <FindCaseSensitive > 1</FindCaseSensitive>
    <ExportFolder > Macintosh HD:Applications:Tinderbox:Tinderbox.app:Contents:MacOS:</ExportFolder>
@@ -1116,12 +1178,12 @@
    <ReadingReminders > 0</ReadingReminders>
    <AllowViews > 1</AllowViews>
    <AutomaticAgentUpdate > 1</AutomaticAgentUpdate>
-   <ToolbarX > 902</ToolbarX>
-   <ToolbarY > 702</ToolbarY>
+   <ToolbarX > 74</ToolbarX>
+   <ToolbarY > 736</ToolbarY>
    <FindWindowX > 600</FindWindowX>
    <FindWindowY > 100</FindWindowY>
-   <RenameWindowX > 83</RenameWindowX>
-   <RenameWindowY > 60</RenameWindowY>
+   <RenameWindowX > 501</RenameWindowX>
+   <RenameWindowY > 44</RenameWindowY>
    <UpdateViewShown > 2 Jul 2009 9:06:45</UpdateViewShown>
    <ExportTextTemplatePath > Macintosh HD:Applications:Tinderbox:Tinderbox.app:Contents:MacOS:templates:text:outline</ExportTextTemplatePath>
    <LeftMargin > 2</LeftMargin>
@@ -1136,8 +1198,9 @@
    <MailPassword > </MailPassword>
 </preferences>
 <windows >
-<window ID="3329924457" Creator="system" type="map" bounds="Rect[ 154 77 768 791]" x="255" y="406" scale="5" expanded="3329926561 3329926629 " collapsed="3329924457 "  />
-<window ID="3329924457" Creator="system" type="outline" bounds="Rect[ 500 85 775 408]" x="0" y="0" scale="5" expanded="3329924457 3329926561 " collapsed="3329926629 "  />
-<window ID="3329926561" Creator="system" type="map" bounds="Rect[ 526 336 1085 698]" x="320" y="364" scale="5" collapsed="3329926561 "  />
+<window ID="3330928522" Creator="system" type="outline" bounds="Rect[ 57 73 307 431]" x="0" y="0" scale="5" expanded="3330928522 "  />
+<window ID="3329924457" Creator="system" type="outline" bounds="Rect[ 500 85 775 408]" x="0" y="0" scale="5" expanded="3329924457 3329926561 " collapsed="3329926629 3330928522 3330928938 "  />
+<window ID="3329926561" Creator="system" type="map" bounds="Rect[ 630 230 1189 592]" x="320" y="364" scale="5" collapsed="3329926561 "  />
+<window ID="3329924457" Creator="system" type="map" bounds="Rect[ 307 73 921 787]" x="263" y="508" scale="5" expanded="3329926561 3329926629 3330928522 3330928938 " collapsed="3329924457 "  />
 </windows>
 </tinderbox>
