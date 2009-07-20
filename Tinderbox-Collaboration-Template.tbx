@@ -193,7 +193,7 @@
 </attrib>
 <attrib Name="ExitScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
 </attrib>
-<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="9" canInherit="0" default="" >
+<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="9" canInherit="0" default="Rect[ 50 50 750 350]" >
 </attrib>
 </attrib>
 <attrib Name="Map" parent="System" editable="0" visibleInEditor="1" default="" >
@@ -414,6 +414,7 @@
 <linkTypes >
 <linkType name="*untitled" label="" visible="1" showLabel="0" color="#000000" style="0"  />
 <linkType name="agree" visible="1" showLabel="1" color="#000000" style="0"  />
+<linkType name="answer" visible="1" showLabel="1" color="#000000" style="0"  />
 <linkType name="clarify" visible="1" showLabel="1" color="#000000" style="0"  />
 <linkType name="disagree" visible="1" showLabel="1" color="#000000" style="0"  />
 <linkType name="example" visible="1" showLabel="1" color="#000000" style="0"  />
@@ -426,8 +427,8 @@
 </linkTypes>
 <item ID="3329924457" Creator="system" >
 <attribute name="Created" >2009-07-08T19:00:46+01:00</attribute>
-<attribute name="MapScrollX" >2.25</attribute>
-<attribute name="MapScrollY" >-1</attribute>
+<attribute name="MapScrollX" >3.13889</attribute>
+<attribute name="MapScrollY" >2.38889</attribute>
 <attribute name="Modified" >2009-07-08T19:00:46+01:00</attribute>
 <attribute name="Name" >Tinderbox-Collaboration-Template</attribute>
 <attribute name="SelectionCount" >2</attribute>
@@ -458,8 +459,8 @@
 <attribute name="FullName" >J. Nathan Matias</attribute>
 <attribute name="Height" >2</attribute>
 <attribute name="IsPrototype" >false</attribute>
-<attribute name="MapScrollX" >-1.19444</attribute>
-<attribute name="MapScrollY" >2</attribute>
+<attribute name="MapScrollX" >-1.75</attribute>
+<attribute name="MapScrollY" >2.66667</attribute>
 <attribute name="Modified" >2009-07-19T15:04:01+01:00</attribute>
 <attribute name="Name" >Nathan</attribute>
 <attribute name="Organization" >World University Project</attribute>
@@ -673,7 +674,7 @@
 <attribute name="Height" >5</attribute>
 <attribute name="Modified" >2009-07-19T16:05:33+01:00</attribute>
 <attribute name="Name" ></attribute>
-<attribute name="SelectionCount" >3</attribute>
+<attribute name="SelectionCount" >5</attribute>
 <attribute name="Width" >7</attribute>
 <attribute name="Xpos" >-7.5</attribute>
 <attribute name="Ypos" >1</attribute>
@@ -684,9 +685,9 @@
 <attribute name="Height" >2</attribute>
 <attribute name="IsPrototype" >false</attribute>
 <attribute name="Modified" >2009-07-19T16:07:07+01:00</attribute>
-<attribute name="Name" >The World University Project Team to Libya</attribute>
-<attribute name="SelectionCount" >5</attribute>
-<attribute name="Width" >4.5</attribute>
+<attribute name="Name" >The World University Project Team to Libya WorldUniversityProject.org</attribute>
+<attribute name="SelectionCount" >6</attribute>
+<attribute name="Width" >5</attribute>
 <attribute name="Xpos" >-0.5</attribute>
 <attribute name="Ypos" >1</attribute>
 </item>
@@ -700,6 +701,32 @@
 <attribute name="Width" >4.5</attribute>
 <attribute name="Xpos" >-0.5</attribute>
 <attribute name="Ypos" >3.5</attribute>
+</item>
+<item ID="3330864787" Creator="system" >
+<attribute name="Badge" >information</attribute>
+<attribute name="Created" >2009-07-19T16:13:06+01:00</attribute>
+<attribute name="Height" >0.5</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2009-07-19T16:13:06+01:00</attribute>
+<attribute name="Name" >Who&apos;s this?</attribute>
+<attribute name="SelectionCount" >16</attribute>
+<attribute name="Shape" >right tag</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-10.5</attribute>
+<attribute name="Ypos" >4</attribute>
+</item>
+<item ID="3330864882" Creator="system" >
+<attribute name="Badge" >ok</attribute>
+<attribute name="Created" >2009-07-19T16:14:41+01:00</attribute>
+<attribute name="Height" >0.5</attribute>
+<attribute name="IsPrototype" >false</attribute>
+<attribute name="Modified" >2009-07-19T16:14:41+01:00</attribute>
+<attribute name="Name" >Matthew Jarvis</attribute>
+<attribute name="SelectionCount" >10</attribute>
+<attribute name="Shape" >right tag</attribute>
+<attribute name="Width" >3</attribute>
+<attribute name="Xpos" >-10.5</attribute>
+<attribute name="Ypos" >4.5</attribute>
 </item>
 </item>
 <item ID="3329926613" Creator="system" >
@@ -748,7 +775,7 @@
 <attribute name="MapScrollY" >5.05833</attribute>
 <attribute name="Modified" >2009-07-08T19:37:08+01:00</attribute>
 <attribute name="Name" >Legend</attribute>
-<attribute name="SelectionCount" >56</attribute>
+<attribute name="SelectionCount" >59</attribute>
 <attribute name="TitleHeight" >1</attribute>
 <attribute name="Width" >4</attribute>
 <attribute name="Xpos" >-4</attribute>
@@ -766,7 +793,7 @@
 <attribute name="Name" >Participant</attribute>
 <attribute name="NameBold" >true</attribute>
 <attribute name="NameColor" >black</attribute>
-<attribute name="SelectionCount" >75</attribute>
+<attribute name="SelectionCount" >76</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="Xpos" >-2</attribute>
 <attribute name="Ypos" >-1</attribute>
@@ -817,7 +844,7 @@
 <attribute name="Ypos" >1.5</attribute>
 </item>
 <item ID="3329925713" Creator="system" >
-<attribute name="BorderColor" >mefi</attribute>
+<attribute name="BorderColor" >light mefi</attribute>
 <attribute name="Color" >mefiprojteal</attribute>
 <attribute name="Color2" >mefi</attribute>
 <attribute name="Created" >2009-07-08T19:21:52+01:00</attribute>
@@ -828,7 +855,7 @@
 <attribute name="NameColor" >mefiyellow</attribute>
 <attribute name="Pattern" >lines</attribute>
 <attribute name="ReadCount" >2</attribute>
-<attribute name="SelectionCount" >22</attribute>
+<attribute name="SelectionCount" >26</attribute>
 <attribute name="Width" >3.5</attribute>
 <attribute name="WindowPlace" >Rect[ 215 443 915 743]</attribute>
 <attribute name="Xpos" >-2</attribute>
@@ -971,6 +998,8 @@
 <link name="prototype" sourceid="3329926045" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3330862343" destcreator="system"  />
 <link name="prototype" sourceid="3329925713" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3330864428" destcreator="system"  />
 <link name="prototype" sourceid="3329925713" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3330864452" destcreator="system"  />
+<link name="prototype" sourceid="3329925906" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3330864787" destcreator="system"  />
+<link name="prototype" sourceid="3329925713" sourcecreator="system" sstart="-1" slen="0" style="0" destid="3330864882" destcreator="system"  />
 </links>
 <macros >
 </macros>
@@ -1107,8 +1136,8 @@
    <MailPassword > </MailPassword>
 </preferences>
 <windows >
-<window ID="3329926561" Creator="system" type="map" bounds="Rect[ 456 130 956 480]" x="224" y="340" scale="5" collapsed="3329926561 "  />
+<window ID="3329924457" Creator="system" type="map" bounds="Rect[ 154 77 768 791]" x="255" y="406" scale="5" expanded="3329926561 3329926629 " collapsed="3329924457 "  />
 <window ID="3329924457" Creator="system" type="outline" bounds="Rect[ 500 85 775 408]" x="0" y="0" scale="5" expanded="3329924457 3329926561 " collapsed="3329926629 "  />
-<window ID="3329924457" Creator="system" type="map" bounds="Rect[ 154 77 768 791]" x="284" y="453" scale="5" expanded="3329926561 3329926629 " collapsed="3329924457 "  />
+<window ID="3329926561" Creator="system" type="map" bounds="Rect[ 526 336 1085 698]" x="320" y="364" scale="5" collapsed="3329926561 "  />
 </windows>
 </tinderbox>
